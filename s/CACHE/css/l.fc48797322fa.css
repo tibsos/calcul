@@ -1,0 +1,4 @@
+/* line 5, s/s/l.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: C; }

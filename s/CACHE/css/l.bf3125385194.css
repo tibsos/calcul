@@ -1,0 +1,49 @@
+/* line 5, s/s/l.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: C;
+  font-weight: normal;
+  background: #edf1f4; }
+
+/* line 15, s/s/l.scss */
+body {
+  padding: 0;
+  margin: 0; }
+
+/* line 22, s/s/l.scss */
+.calculator {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  /* align content not items */
+  max-height: 100vh;
+  /* Fill 100% of the height */
+  padding: 10px;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff; }
+
+/* line 40, s/s/l.scss */
+.calculator > button {
+  cursor: pointer;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  background: none;
+  margin: 10px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff; }
+
+/* line 60, s/s/l.scss */
+.span-two {
+  grid-row: span 2; }
+
+/* line 66, s/s/l.scss */
+.output {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: inset 5px 5px 10px #c9cdcf, inset -5px -5px 10px #ffffff; }

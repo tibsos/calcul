@@ -1,0 +1,29 @@
+/* line 1, s/s/l.scss */
+.c {
+  height: 600px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff; }
+  /* line 11, s/s/l.scss */
+  .c .d {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 330px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 10px #c9cdcf, inset -5px -5px 10px #ffffff;
+    cursor: text; }
+  /* line 29, s/s/l.scss */
+  .c .b {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff;
+    cursor: pointer; }
+  /* line 48, s/s/l.scss */
+  .c .in {
+    box-shadow: inset 5px 5px 10px #c9cdcf, inset -5px -5px 10px #ffffff; }

@@ -1,0 +1,134 @@
+$light-text-color: #2c2d2d;
+$light-bright-color: #4d12f5;
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+  }
+  
+body {
+
+    width: 100vw;
+    height: 100vh;
+
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: C;
+
+    background: #ecf0f3;
+
+}
+
+button {
+
+    font-family: C;
+
+}
+
+.calculator-grid {
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    max-height: 100vh;
+
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+
+    padding: 20px;
+
+    border-radius: 30px;
+
+    box-shadow:  5px 5px 10px #c9cdcf,
+             -5px -5px 10px #ffffff;
+
+
+}
+
+
+  
+  .calculator-grid > button {
+    cursor: pointer;
+
+    margin: 10px;
+        
+    outline: none;
+    border: none;
+    
+    border-radius: 100px;
+
+
+    box-shadow:  5px 5px 10px #c9cdcf,
+        -5px -5px 10px #ffffff;
+
+  }
+
+  [data-number], [data-delete], [data-all-clear] {
+
+    font-size: 2rem;
+
+  }
+
+  [data-operation], [data-equals] {
+
+    font-size: 3rem;
+
+  }
+
+  [data-operation], [data-all-clear], [data-delete] {
+
+    color: $light-bright-color;
+
+  }
+
+  .span-two {
+
+    background-color: $light-bright-color;
+    color: #fff;
+    
+  }
+  
+  .span-two {
+    grid-column: span 2;
+  }
+  
+  .output {
+    grid-column: 1 / -1;
+    
+    border-radius: 30px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    box-shadow: inset 5px 5px 10px #c9cdcf,
+            inset -5px -5px 10px #ffffff;
+
+  }
+  
+  .output .previous-operand {
+      
+    padding: 10px;
+    
+    color: $light-text-color;
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+
+    padding: 10px;
+    
+    color: $light-bright-color;
+    font-size: 2.5rem;
+  }

@@ -1,0 +1,44 @@
+/* line 6, s/s/l.scss */
+.c {
+  position: relative;
+  height: 505px;
+  width: 285px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff; }
+  /* line 18, s/s/l.scss */
+  .c .d {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 265px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 10px #c9cdcf, inset -5px -5px 10px #ffffff;
+    cursor: text; }
+  /* line 36, s/s/l.scss */
+  .c .r {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 330px;
+    margin-top: 20px; }
+  /* line 48, s/s/l.scss */
+  .c .b {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff;
+    cursor: pointer;
+    font-size: 25px; }
+  /* line 69, s/s/l.scss */
+  .c #eq {
+    position: absolute;
+    right: 3px;
+    bottom: 20px;
+    height: 80px; }
+  /* line 79, s/s/l.scss */
+  .c .in {
+    box-shadow: inset 5px 5px 10px #c9cdcf, inset -5px -5px 10px #ffffff; }

@@ -1,0 +1,37 @@
+/* line 6, s/s/l.scss */
+.c {
+  height: 600px;
+  width: 285px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff; }
+  /* line 16, s/s/l.scss */
+  .c .d {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 265px;
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 10px #c9cdcf, inset -5px -5px 10px #ffffff;
+    cursor: text; }
+  /* line 34, s/s/l.scss */
+  .c .r {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 330px;
+    margin-top: 20px; }
+  /* line 47, s/s/l.scss */
+  .c .b {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff;
+    cursor: pointer;
+    font-size: 25px; }
+  /* line 68, s/s/l.scss */
+  .c .in {
+    box-shadow: inset 5px 5px 10px #c9cdcf, inset -5px -5px 10px #ffffff; }

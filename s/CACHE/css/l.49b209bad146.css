@@ -1,0 +1,84 @@
+/* line 5, s/s/l.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal; }
+
+/* line 11, s/s/l.scss */
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: C;
+  background: #edf1f4; }
+
+/* line 29, s/s/l.scss */
+button {
+  font-family: C; }
+
+/* line 35, s/s/l.scss */
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  max-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff; }
+
+/* line 56, s/s/l.scss */
+.calculator-grid > button {
+  cursor: pointer;
+  margin: 10px;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 5px 5px 10px #c9cdcf, -5px -5px 10px #ffffff; }
+
+/* line 76, s/s/l.scss */
+[data-operation], [data-all-clear], [data-delete] {
+  color: #4d12f5; }
+
+/* line 82, s/s/l.scss */
+.span-two {
+  background-color: #4d12f5; }
+
+/* line 90, s/s/l.scss */
+.calculator-grid > button:hover {
+  background-color: rgba(255, 255, 255, 0.9); }
+
+/* line 94, s/s/l.scss */
+.span-two {
+  grid-column: span 2; }
+
+/* line 98, s/s/l.scss */
+.output {
+  grid-column: 1 / -1;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  word-wrap: break-word;
+  word-break: break-all;
+  box-shadow: inset 5px 5px 10px #c9cdcf, inset -5px -5px 10px #ffffff; }
+
+/* line 115, s/s/l.scss */
+.output .previous-operand {
+  padding: 10px;
+  color: #2c2d2d;
+  font-size: 1.5rem; }
+
+/* line 123, s/s/l.scss */
+.output .current-operand {
+  padding: 10px;
+  color: #4d12f5;
+  font-size: 2.5rem; }

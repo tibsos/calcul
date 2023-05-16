@@ -1,0 +1,11 @@
+/* line 5, s/s/l.scss */
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: C;
+  font-weight: normal;
+  background: #edf1f4; }
+
+/* line 15, s/s/l.scss */
+body {
+  padding: 0;
+  margin: 0; }
